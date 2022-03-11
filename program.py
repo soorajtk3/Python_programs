@@ -20,7 +20,7 @@ def panagram(s):
 
 def avg(data):
     sum=0
-    if len(data)<=0:
+    if len(data)==0:
         return None
     
     for i in data:
